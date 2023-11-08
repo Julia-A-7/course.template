@@ -35,19 +35,19 @@ public class DocumentController {
             path = "send",
             consumes = MediaType.APPLICATION_JSON_VALUE,
             produces = MediaType.APPLICATION_JSON_VALUE)
-    public DocumentDto send(@RequestBody IdDto id) {
+    public DocumentDto send(@Valid @RequestBody IdDto id) {
         DocumentDto document = service.get(id.getId());
         document.setStatus(Status.of("IN_PROCESS", "В обработке"));
         return service.update(document);
     }
 
     @DeleteMapping(path = "/{id}")
-    public void delete(@PathVariable Long id) {
+    public void delete(@Valid @PathVariable Long id) {
         service.delete(id);
     }
 
     @DeleteMapping
-    public void deleteAll(@RequestBody IdsDto idsDto) {
+    public void deleteAll(@Valid @RequestBody IdsDto idsDto) {
         service.deleteAll(idsDto.getIds());
     }
 
