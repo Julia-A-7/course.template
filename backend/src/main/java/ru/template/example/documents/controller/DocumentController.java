@@ -1,12 +1,12 @@
-package ru.template.example.controller;
+package ru.template.example.documents.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.*;
-import ru.template.example.controller.dto.DocumentDto;
-import ru.template.example.controller.dto.IdDto;
-import ru.template.example.controller.dto.IdsDto;
-import ru.template.example.controller.dto.Status;
+import ru.template.example.documents.controller.dto.DocumentDto;
+import ru.template.example.documents.controller.dto.IdDto;
+import ru.template.example.documents.controller.dto.IdsDto;
+import ru.template.example.documents.controller.dto.Status;
 import ru.template.example.documents.service.DocumentService;
 
 import javax.validation.Valid;

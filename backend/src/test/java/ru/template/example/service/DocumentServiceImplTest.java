@@ -5,8 +5,8 @@ import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.ActiveProfiles;
-import ru.template.example.controller.dto.DocumentDto;
-import ru.template.example.controller.dto.Status;
+import ru.template.example.documents.controller.dto.DocumentDto;
+import ru.template.example.documents.controller.dto.Status;
 import ru.template.example.documents.service.DocumentServiceImpl;
 
 import java.time.Instant;

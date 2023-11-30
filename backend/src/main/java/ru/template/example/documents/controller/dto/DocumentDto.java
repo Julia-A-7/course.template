@@ -1,4 +1,4 @@
-package ru.template.example.controller.dto;
+package ru.template.example.documents.controller.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

@@ -6,7 +6,7 @@ import org.springframework.kafka.support.SendResult;
 import org.springframework.stereotype.Component;
 import org.springframework.util.concurrent.ListenableFuture;
 import org.springframework.util.concurrent.ListenableFutureCallback;
-import ru.template.example.controller.dto.DocumentDto;
+import ru.template.example.documents.controller.dto.DocumentDto;
 
 import java.util.concurrent.ExecutionException;
 

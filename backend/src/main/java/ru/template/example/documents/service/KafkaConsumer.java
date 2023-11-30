@@ -6,11 +6,11 @@ import lombok.AllArgsConstructor;
 import org.springframework.kafka.annotation.KafkaListener;
 import org.springframework.messaging.handler.annotation.Payload;
 import org.springframework.stereotype.Component;
-import ru.template.example.controller.dto.KafkaResultDto;
+import ru.template.example.documents.controller.dto.KafkaResultDto;
 import ru.template.example.documents.repository.DocumentRepository;
 import ru.template.example.documents.repository.StatusRepository;
 import ru.template.example.documents.repository.entity.StatusEntity;
-import ru.template.example.exception.NotFoundStatus;
+import ru.template.example.documents.exception.NotFoundStatus;
 
 import java.util.Optional;
 

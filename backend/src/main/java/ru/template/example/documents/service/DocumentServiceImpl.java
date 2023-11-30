@@ -6,14 +6,14 @@ import ma.glasnost.orika.MapperFacade;
 import ma.glasnost.orika.impl.DefaultMapperFactory;
 import org.springframework.context.annotation.Lazy;
 import org.springframework.stereotype.Service;
-import ru.template.example.controller.dto.DocumentDto;
+import ru.template.example.documents.controller.dto.DocumentDto;
 import ru.template.example.documents.repository.DocumentRepository;
 import ru.template.example.documents.repository.StatusRepository;
 import ru.template.example.documents.repository.entity.DocumentsEntity;
 import ru.template.example.documents.repository.entity.StatusEntity;
-import ru.template.example.exception.DocumentIllegalStatusException;
-import ru.template.example.exception.DocumentNotFoundException;
-import ru.template.example.exception.NotFoundStatus;
+import ru.template.example.documents.exception.DocumentIllegalStatusException;
+import ru.template.example.documents.exception.DocumentNotFoundException;
+import ru.template.example.documents.exception.NotFoundStatus;
 
 import javax.transaction.Transactional;
 import java.time.Instant;

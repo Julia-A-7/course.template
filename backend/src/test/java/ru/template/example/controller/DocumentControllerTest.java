@@ -15,9 +15,9 @@ import org.springframework.test.web.servlet.request.MockHttpServletRequestBuilde
 import org.springframework.test.web.servlet.setup.MockMvcBuilders;
 import org.springframework.web.context.WebApplicationContext;
 import ru.template.example.configuration.JacksonConfiguration;
-import ru.template.example.controller.dto.DocumentDto;
-import ru.template.example.controller.dto.IdsDto;
-import ru.template.example.controller.dto.Status;
+import ru.template.example.documents.controller.dto.DocumentDto;
+import ru.template.example.documents.controller.dto.IdsDto;
+import ru.template.example.documents.controller.dto.Status;
 import ru.template.example.documents.service.DocumentServiceImpl;
 
 import java.time.Instant;
