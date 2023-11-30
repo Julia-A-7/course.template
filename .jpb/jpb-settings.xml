@@ -4,7 +4,7 @@
     <persistence-units>
       <persistence-unit name="Default">
         <packages>
-          <package value="ru.template.example" />
+          <package value="ru.javaschool" />
         </packages>
       </persistence-unit>
     </persistence-units>
