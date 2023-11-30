@@ -5,7 +5,7 @@ services:
     ports:
       - '8888:8888'
   ui:
-    build: ./ui
+    build: docker-react
     ports:
       - '3006:3005'
     volumes:
